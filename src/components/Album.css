@@ -1,0 +1,16 @@
+.album{
+    display: flex;
+}
+
+.photo{
+    margin-right:5vw;
+}
+.albumart{
+    width:10vw
+}
+.albumInfo{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+
+}

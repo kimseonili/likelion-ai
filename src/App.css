@@ -1,3 +1,17 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    text-decoration: none;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +49,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.row{
+  margin-top:10vw;
+  display: flex;
+  text-align: left;
+  /* justify-content: ; */
+  margin-bottom: 20vw;
+}
+
+.title{
+  width: 20vw;
+  font-size: 48px;
+  margin-left: 10vw;
+
+}
+hr{
+  width: 60vw;
+  margin-right: 10vw;
+}
+.content{
+  margin-top: 24px;
+  width: 60vw;
+  margin-right: 10vw;
+}
+
+.left{
+  display: inline-block;
+  width:50px;
 }

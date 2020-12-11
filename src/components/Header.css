@@ -1,0 +1,93 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    text-decoration: none;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header .info_logo{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+.info_logo a{
+    display: block;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+.info_logo img{
+    width: 100px;
+    height: 100px;
+}
+header .info_header_img{
+    width: 100%;
+    background-color: #f0de62;
+}
+.info_header_img .info_header_imgcenter{
+    text-align: center;
+    margin: 0;
+}
+.info_header_img img{
+    width: 100%;
+    max-width: 900px;
+}
+header .info_banner{
+    width: 100%;
+    height: 60px;
+    background-color: #fdad4b;
+}
+header .info_banner .info_banner_content{
+    margin: 0 auto;
+    padding: 15px;
+    width: 205px;
+    height: 30px;
+}
+.info_banner a{
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.info_banner a:last-child{
+    margin-left: 50px;
+}
+
+@media(max-width:1200px){
+    .info_header_img img{
+        width: 100%;
+        max-width: 400px;
+    }
+    header .info_logo a{
+        margin: 15px auto;
+        max-width: 650px;
+    }
+    .info_logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .info_banner{
+        width: 100%;
+    }
+}
+
+@media(max-width:680px){
+    header .info_logo a{
+        margin: 20px auto;
+        max-width: 500px;
+    }
+    .info_logo img{
+        width:60px;
+        height: 60px;
+    }
+}
